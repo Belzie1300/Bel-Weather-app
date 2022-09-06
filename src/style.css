@@ -1,0 +1,86 @@
+.container {
+  border-style: solid;
+  border-radius: 77px;
+  border-color: #70c3eb;
+  margin: 73px auto;
+  width: fit-content;
+
+  padding: 29px 40px;
+}
+.weather-summary h5 {
+  font-family: "Epilogue", sans-serif;
+}
+.weather-summary p {
+  font-family: "Overlock", cursive;
+}
+
+#city-input {
+  border: solid 100;
+  border-radius: 20px;
+  padding: 11px;
+  border-color: #353cee;
+}
+#city-input::selection {
+  border: none;
+}
+
+#search-btn {
+  border: solid 100;
+  border-radius: 29px;
+  padding: 12px;
+  border-color: #353cee;
+}
+#current-location-btn {
+  margin: 8px 26px;
+  border: solid 100;
+  border-radius: 29px;
+  padding: 10px;
+  border-color: #353cee;
+  background-color: #353cee;
+  color: #fff;
+  font-weight: 400;
+}
+
+.c-degree-btn {
+  border: solid 100;
+  border-radius: 29px;
+  padding: -1px;
+  margin: 10px;
+  border-color: #353cee;
+}
+.f-degree-btn {
+  border: solid 100;
+  border-radius: 29px;
+  padding: -1px;
+  margin: 10px;
+  border-color: #353cee;
+}
+.weather-summary {
+  position: relative;
+  left: 10px;
+}
+.minmax {
+  padding: 10px;
+  position: relative;
+  left: 30px;
+}
+.high-temp {
+  font-weight: 600;
+}
+.low-temp {
+  font-size: 14px;
+}
+.humidity {
+  font-size: 12px;
+}
+#wind {
+  font-size: 12px;
+}
+
+.next-week-forcast {
+  position: relative;
+  left: 30px;
+}
+.card {
+  border-radius: 1.375rem;
+}
